@@ -46,5 +46,4 @@ for index, row in df.iterrows():
     output_path = f"{folder_path}/{row['Name']}.png"
     template_copy.save(output_path)
 
-# Optionally, close the original PSD file if you are not going to use it further
-# original_template.close()
+
