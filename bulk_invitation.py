@@ -9,15 +9,15 @@ if not os.path.exists(folder_path):
 # Read the Excel file containing the names
 df = pd.read_excel("C:/Users/Kshitiz/Downloads/Names.xlsx")
 
-# Convert the names to upper case
-df["Name"] = df["Name"].str.upper()
+# # Convert the names to upper case
+# df["Name"] = df["Name"].str.upper()
 
 # Open the PSD file and convert it to RGB mode
 template_path = "C:/Users/Kshitiz/Downloads/invitation.psd"
 original_template = Image.open(template_path).convert("RGB")
 
 # Specify the font and font size to be used
-font_path = "C:/Users/Kshitiz/Downloads/HANDYMAN Regular/Verdana.ttf"
+font_path = "C:/Users/Kshitiz/Downloads/HANDYMAN Regular/Six Hands Web Black.ttf"
 font_size = 80
 
 # Iterate over the names in the Excel file
