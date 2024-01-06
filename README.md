@@ -32,6 +32,7 @@ This repository contains a Python script, `bulk_invitation.py`, which generates 
     ```bash
     pip install -r requirements.txt
     ```
+**READ:** Make sure to adjust the path properly, you need to put all the files in root directory before using it, or give exact path of requirements.txt and same for all others, if they are in folder....
 
 4. Place your Excel file (`name_excel_sheet.xlsx`), PSD template file (`invitation_card_template.psd`), and TrueType Font file (`your_required_font.ttf`) in the project directory.
 
